@@ -1,0 +1,548 @@
+Módulo 1 - Fundamentos
+#####################
+	Linguagens e Compiladores
+	*************************
+
+		Compiladas
+		----------
+			- Recebe um arquivo de texto e converte em binário
+			- C# e Java
+
+			Prós:
+				- Tempo de compilação
+					- Detecção rápida dos erros
+				- Tamanho menor das aplicações
+				- Maior optimização da execução
+				- Apenas um arquivo final
+
+			C#: Alto nivel, Fortemente tipada e compilada
+
+		Interpretadas
+		-------------
+			- Arquivos de texto
+			- Lidos e interpretados por interprete, ex: Navegador
+			- Em tempo real
+			- JavScript
+
+			Prós:
+				- Não precisa ser compiladas
+				- Correcoes mais faceis de serem executadas
+				- Mais simples de ser distribuidas
+
+			Contras:
+				- Detecção de erros
+					- Só aparece em execução
+				- Tamanho final da aplicação maior
+				- Menor otimização da execução
+				- Multipos arquivos
+
+	Tipagem de dados
+	****************
+		Definições:
+			- 'Fortemente tipadas'
+			- Obrigam a especificar o tipo de dado da informação
+			- Menor liberadade
+			- Maior Optimização
+
+		Exemplos em C#: 
+			 int idade = 18 (OK)
+			 int idade = "Oi" (ERRO)
+
+		Exemplos em JavaScript:
+			let idade = 18 (ok)
+			let idade = '18' (ok)
+
+	C# (Sharp)
+	**********
+		- Tipada, compilada e gerenciada
+		- Creiada por Anders Hejlsberg em 2001
+		- Principal ling da Microsoft
+
+		por que aprender C#?
+		--------------------
+			- Linguagem completa (Web, games, Unit, machine Larning...)
+			- Maturidade no mercado
+			- Mercado
+			- Comunidade
+			- Aplicabilidade
+			- Microsoft por trás
+			- Orientação a objetos
+
+		C# como primeira linguagem
+		--------------------------
+			- Não é a mais fácil
+			- focada em OOP e Programação funcional
+			- Fácil no começo pode te ajudar no final
+			- OOP te dá a base aprender coisas novas
+			- A conta uma hora vem
+			- Quanto mais tempo voce perde na base, mais fácil vc aprende coisas novas
+
+		Como funciona o C#
+		------------------
+			- Tipada
+			- Compilada
+			- Codigo gerenciadao
+				- Siginifica que sua execução depente de um gerenciador
+				- Conhecido como Runtime
+				- Gerencia memoria, segurança etc...
+				- Permite que interagimos menos ou nao interagir com a máquina
+				- O Gerenciador que aloca a memoria e conversa com a máquina
+
+		Como funcioina Compilação e Gerenciamento?
+		------------------------------------------
+			- microsoft matém em manutenção as linguagens 
+			- Se cada linguagens tiver um gerenciador, isso seria complicada. Por isso há um compilador para cada uma
+			- Compiladores ficam separados, um pra cada linguagem
+			- A compilação gera um codigo intermédiario(IL - Intermediate Language), uma vez que não chega direto ao binario
+
+		IL - Intermediate Language
+		-------------------------
+		Código C#, .NET > IL > Binário
+
+		JIT - Just In Time
+		------------------
+			- O Processo de conversão do Il ao Binário e conhecido como JIT
+
+	Frameworks
+	**********
+		- Estrutura, alicence
+			- Conjunto de bibliotecas
+		- Usamos como base para construir nossas aplicações
+			- Evitando reescrever o código novamente
+				-EX: outra pessoa ja fez, voce pode usar
+		- Usaremos o .NET
+
+		Ideias do Framework
+		--------------------
+			- Trazer arquivos comuns já prontos
+				- itens do dia a dia
+			- validados e testados
+			- Nós poupam muito tempo
+			- Não vale a pena começar sem um
+
+		.NET Framework
+		--------------
+			- Primeira versão em 2001
+
+		Runtime
+		-------
+			- necessario para executar aplicacoes
+			- Dividos em 3
+				- Asp.Net web
+				- Desktop
+				- .NEt core para qualquer aplicacao
+					- sem interface
+				- Possui versões
+					- tem que ser compativel com a versão
+				- Apenas executa na aplicação
+				- Tamanho menor, otimizado para execução
+
+		SDK
+		----
+			- Sigla para Software Development Kit
+				- Kit para developer
+			- Possui tudo que precisa para criar aplicacao
+			- Ja vem com Runtime
+			- Não devemos usar em produção
+				- para executar precisamos de apenas runtime
+			- Maior que Runtime
+
+		NET
+		----
+			1 - Instalação
+			2 - CLI
+				-> Linha de comando
+					dotnet --list-sdks
+						- todas as sdks(versões) instaladas
+					dotmet --list-runtimes
+						- Lista as runtimes
+					dotnet help
+						- Ajuda com os comandos
+
+		Tipos de projetos
+		------------------
+			- Class Libary
+				- resultado final é uma DLL
+				- Sem interface
+			- Console Aplication
+				- Resultado é uma aplicação que roda no terminal
+				- Pode receber e sair dados do usario
+			- Projeto Web e Testes
+				- ASP.Net Web, MVC e WebAPI
+
+			Novo projreto em CLI
+				- dotnet new console(classlib, web, webapi, mstest) => Novo COnsole Aplication
+			
+			Criar um projeto via CLI e diretorio customizado
+				- dotnet new console -o MinhaPasta 
+
+	Linguagem de Programação C#
+	***************************
+
+		Notas inmportantes
+		------------------
+			- Evitar usar caracter especial, etc
+			- usar caminhos curtos 
+
+		Escopo de um programa
+		---------------------
+			- Importações
+			- Namespace
+			- Classe
+			- Método Principal
+
+			O programa inicia buscando:
+				1 -  O nome do arquivo
+				2 - Clase do arquivo
+				3 - Método
+
+		namespaces
+		----------
+			- Pastas no pc: Duvisao fisica
+			- Namespace: Divisão Lógica
+			- Como as pastas, namespaces nao podem ser iguais
+			- Ideal usar apenas um namespace e uma classe
+			- Podendo ter varios namespaces
+			- Sem espacos ou caracter espcial
+			- pode colocar dentro do outro usando .
+			- Normalmente usando parametros das pastas
+
+		using
+		-----
+			- Iportações, .Net trás o básico, caso queria algo mais, precisa importar
+			- Não importa o local que esteja, funciona da mesma forma
+			- Organizar o código em pastas e namespace
+
+		Variáveis
+		---------
+			- Armazena informações
+			- Mutavel
+			- Podemos usar um tipo(int, float etc) ou reservada para criar uma variavel, (var)
+			- C#, sempre a variavel vem antes do nome
+			- Se nao informar um valor, um padrão será aplicado
+
+			int idade; // Inicia com 0
+			int idade = 25; //inicia em 25
+			var idade = 25; // inicia em 25
+			var idade; //errado, precisa passar valor
+
+		Tipos Primitivos (biult-in types)
+		---------------------------------
+			- Definir o tipo otimiza a execução do programa
+			- São chamados de TipoDeValor
+			- Armazeram valor e nao referencia para um item na memoria
+
+			- Classificados:
+				- Tipos Simples(Simple Types)
+				- Enumeradores (Enums)
+				- Estruturas (Structs)
+				- Tipos Nulos (ullable Types)
+
+				int 
+				-----
+					- Vai de -2 milhoes ate 2 milhoes
+					- short/ushort
+					- int/unit
+					- long/ulong
+					u (aceita negativo)
+
+				System
+				------
+					- No .Net, tudo começa com base em System
+
+				Byte
+				----
+					- 0 a 255
+
+				Numeros reais
+				-------------
+					- float (notação F no final)
+					- double 
+					- decimal (notação M no final)
+
+					Ambos usam assimilação negativa, sem precisar passar o 'U'
+
+				Boolean
+				-------
+					- true or false
+					- 8 bits
+
+				char
+				-----
+					- unicode
+					- aceita apenas 1 caractere
+					- Atribui usando aspas simples
+					- 16 bits
+					- EX: char PrimeiraLetra = 'N';
+
+				String
+				------
+					- Uma lista de char, ou seja, varios caracteres
+					- string PrimeiraLtera = "N"; (Não funciona com ' ')
+
+				Var
+				----
+					- Subistitui o nome do tipo
+					- Economiza codigo
+
+				Object
+				------
+					- Recebe qualquer valor ou objeto
+					- Caso não saiba o tipo da informação ou ela tem varios tipos diferentes
+					- Nãi possui intelisense(ajuda dos editores de texto) por ser um tipo desconhecido
+					- Evitar usar
+
+						object idade = 25
+						object idade = "Vinte e Cinco"
+
+				Nullable Types (null)
+				-------------
+					- Significa Vazio
+					- Diferente de zero ou string vazia
+					- todos os tipos primitivos podem receber null
+					- O tipo deve ser marcado como Nullable Type
+						- int? idade = null (? na frente do tipo)
+						- Significa que pode usar um tipo primitivo como nulo passando o (?)
+
+				Alias
+				-----
+					- Apelido do tipo no .NET tem
+					EX:
+						- System.String tem o alias = string
+					Por que?
+						- C# é Case sensitivy
+
+				Valores Padrões
+				---------------
+					- Todo tipo built-in possui valor padrão
+					- Se nenhum valor for informado ele será 0 ou false
+
+				Comversão Implícita
+				-------------------
+					- Conversão que pode apenas passar com compatibidade de tipo ou dados 
+
+					float valor = 25.8F;
+					int OutroValor = 25;
+
+					valor = OutroValor ; Conversão implicita
+
+				Conversão Explicita
+				--------------------
+					- Quando os tipos nao sao compativeis
+					- Uso do tipo entre parenteses antes da atribuição
+						int num = 100;
+						uini num2 = (uint)inteiro;
+
+				Parse
+				------
+					- Converte um caractere ou string para qq tipo
+					int inteiro = int.Paese("100")
+
+				Convert
+				--------
+					- Similar ao Parse
+					- Converte varios tipos de valor
+						- Não apenas string
+					- Devemos informar o tipo na chama da conversão
+
+					int num = Convert.ToInt32("100")
+
+						Convert.ToString()
+						------------------
+							- Coverte para string
+
+						Convert.ToInt32(TipoDesejado)
+						-----------------------------
+							- Converte para o tipo desejado
+
+		Operadores Aritméticos
+		----------------------
+			+ - * /
+
+			Operadores de atribuição
+				- += -= *= /=
+
+			Operadores de Comparação
+				True ou False
+				==
+				!=
+				>
+				<
+				>=
+				<=
+
+		Lógicos
+		-------
+		and -> &&
+		or -> ||
+		not -> !
+
+		Estruturas Condicionais
+		-----------------------
+			- if else
+
+			- Switch
+				- Usa quando temos muitas decisões
+				- Executado em cascata
+				- Devemos parar manualmente usando break
+				- Possui uma execusao padrão chamada 'default' 
+
+				switch (valor)
+				{
+					case 1: Console.WriteLine("1"); break;
+					case 2: Console.WriteLine("2"); break;
+					default: Console.WriteLine("Numero nao localizado! "); break;
+				}
+
+			- for
+			- while
+			- Do While (faça)
+				- Checa a condição no final
+					do{
+						Console.WriteLine(A)
+					} while()
+
+
+		Funções ou Métodos
+		------------------
+			- podemos segmentar o nosso programa é segmentado em funções
+			- Também conhecido como métodos
+			- o 'MAIN' é um exemplo desses métodos
+			- Possui ou NÂO um retorno, nome e parametros(var)
+				- esta composição é chamada de assinatura do método
+			- Começa Maisucula
+
+
+			static void Main(string[] args){
+
+				MetodoTeste();
+			}
+
+			static void MetodoTeste(string variavel){
+
+				Console.WriteLine("C# é brabo! ")
+			}
+
+			- Nesse caso ele retornaria a mensagem no método Main
+			- Assinatura do método exemplo:
+				1 - 'static' - se nao for instanciar uma classe
+				2 - void(caso não precise de retorn)
+				3 - Nome do método()
+				4 - Especificar o tipo do método dentro do (), seguindo com
+					1 - Tipo primitivo ou bool
+					2 - parametro/var
+						- Lembrando que devemos usar dentro da função de acordo com o tipo do parametro, se for string, use string.
+
+				static string RetorneNome(string nome, string sobrenome){
+
+					return nome + sobrenome
+				}
+
+				- Usamos o retorno quando precisaremos daquele resultado em outra parte da função
+
+		
+		Value Types
+		-----------
+			Definições
+				- Qualquer tipo do .Net é tratada como:
+					- Referencia
+					- Valor
+				Tipos de valor de armazenam dados
+				- são armazenados em um local da memoria chamada stack
+
+				Ex de NÂO Reference: 
+					- Quando atribui um valor de uma var a outra, será copiado apenas, não terá referencia
+
+				Reference Types
+				--------------
+					- Armazenam o endereço do obj que contem os dados
+					- não armazena os dados em si
+					- armazena em umn local da memory chamado Heap
+					- Ao assimilar uma var
+						- criará uma referencia
+						- Aponta ára a mesma informacao
+						- Nao sao independentes
+					- Quano não mais utilizados são marcados para exclusao
+					- Garbage Colector passa removendo todos eles
+					
+					Tipos que usam referencia?
+						- Classes, obj e arrays
+
+					EX: 
+					var arr = new string[2];
+					arr[0] = "Item 1" 
+					var arreio2 = arr;
+					// não cria copia, somente a referencia
+
+
+		Structs (estruturas)
+		--------------------
+
+		obs: - Não é uma função
+			 - não deve estar dentro de uma classe
+
+			- Tipos de dados estruturados
+			- Apenas estruruas o esqueleto
+			- tipo de valor
+			- armazenam outros tiposd de dados
+			- Definidos por structs
+			- Composto por propriedades e metodos
+			- Nome maiusculo
+				- o mesmo pára propriedades e metodos
+			- Criado a partir da palavra new
+				- Neste momento temos um valor
+
+			A anatomia de uma estutura é definida por:
+
+				struct Product
+				{
+					propriedades
+					metodos
+
+					ex: public int id;
+					ex: var product = new Product();
+				}
+
+			EX: var product = new Product();
+			product.Id =1;
+			product.Title = "Mouse Gamer"
+			product.Price = 201.90;
+
+			MÉTODO CONSTRUTOR
+				- public Product (int id, string name)
+				{
+					Id = id;
+					Name = name;
+					Price = price;
+				}
+
+
+		Enumeradores- Enums
+		-------------------
+			- usado apra fornecer uma melhor visualização do codigo
+			- substuem oi uso de intyeiros
+			- usados em listas curtas
+			- usados em baixo fixos
+				- head cobed
+			- sempre em maiusculo
+				- Começa com E
+
+			enum EEstadoCivil
+			{
+				Solteiro = 1;
+				Casado = 2;
+				Divorciado = 3
+			}
+
+			struct Cliente
+			{
+				public string Nome;
+
+				public EEstadoCivil EstadoCivil;
+			}
+
+			var Cliente = new ("João Silva", EEstadoCivil.Casado);
+
+			CW(cliente.Nome)
+			CW(Cliente.EstadoCivil)
+			CW((int)Cliente.Nome) // conversao explicita
