@@ -1,0 +1,46 @@
+Aula 1 - guid
+	guid -> Cria um identificador unico com codigo rash para salvar no bd
+	    var id = Guid.NewGuid();
+        id.ToString();
+        Console.WriteLine(id);
+
+Aula 2 - Interpolacao de strings
+	Interpolação -> juntar valores
+
+Aula 3 - Comparação de strings
+	var texto = "Este Texto é uma String"
+	Console.WriteLine(texto.Contains("teste"));
+
+Aula 4 - StartWith e EndsWith (começa ou termina com:)
+	var texto = "Este Texto é uma String"
+	Console.WriteLine(texto.StartWith("Este"));
+	Console.WriteLine(texto.EndsWith("Este"));
+	Console.WriteLine(texto.EndsWith("Este".StringComparison.OrdinalIgnoreCase)); // Ignora case sensitivity
+
+Aula 5 - Equals(comparaçãod e objetos)
+
+Aula 6 - Indices(listas)
+	var texto = "Este Texto é uma String"
+	Console.WriteLine(texto.IndexOff("T"));
+	// Ele busca a primeira posição que está a letra que foi solicitada	
+	Console.WriteLine(texto.LastIndexOff("T"));
+	//Ultima letra encontrada
+
+Aula 7 - Convertendo textos
+	texto.ToLower();
+	texto.ToUpper();
+	texto.insert(posicao, "texto"); insere o texto na posicao solicitada
+	texto.remove(5, 5); // Remove (inicio, final) 
+	texto.length(); // quantidade de caracteres
+
+Aula 8 - Manipulando strings 
+	texto.Replace(antigo, novo) // substitui o antigo pelo novo
+	texto.Split(" ") // Cria um novo texto com indice diferente a cada espaço
+	texto.Trim(); // limpa os espaços
+
+Aula 9 - String Builder(string construtor, não é uma string)
+	var texto = new StringBuilder();
+	texto.append("1")
+	texto.append("2")
+	texto.append("3")
+	texto.ToString(); //converte de builder para string

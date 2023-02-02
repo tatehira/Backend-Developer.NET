@@ -1,0 +1,30 @@
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.exe
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.deps.json
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.runtimeconfig.json
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.dll
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.pdb
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.csproj.AssemblyReference.cache
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.AssemblyInfoInputs.cache
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.AssemblyInfo.cs
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.csproj.CoreCompileInputs.cache
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.dll
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\refint\EditorHTML.dll
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.pdb
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.genruntimeconfig.cache
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\EditorHTML\EditorHTML\obj\Debug\net6.0\ref\EditorHTML.dll
+C:\dev\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.exe
+C:\dev\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.deps.json
+C:\dev\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.runtimeconfig.json
+C:\dev\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.dll
+C:\dev\EditorHTML\EditorHTML\bin\Debug\net6.0\EditorHTML.pdb
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.csproj.AssemblyReference.cache
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.AssemblyInfoInputs.cache
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.AssemblyInfo.cs
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.csproj.CoreCompileInputs.cache
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.dll
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\refint\EditorHTML.dll
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.pdb
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\EditorHTML.genruntimeconfig.cache
+C:\dev\EditorHTML\EditorHTML\obj\Debug\net6.0\ref\EditorHTML.dll
