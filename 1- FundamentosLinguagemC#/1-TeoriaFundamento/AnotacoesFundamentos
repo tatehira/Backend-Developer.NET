@@ -1,0 +1,217 @@
+Módulo 1 - Fundamentos
+#####################
+	Linguagens e Compiladores
+	*************************
+
+		Compiladas
+		----------
+			- Recebe um arquivo de texto e converte em binário
+			- C# e Java
+
+			Prós:
+				- Tempo de compilação
+					- Detecção rápida dos erros
+				- Tamanho menor das aplicações
+				- Maior optimização da execução
+				- Apenas um arquivo final
+
+			C#: Alto nivel, Fortemente tipada e compilada
+
+		Interpretadas
+		-------------
+			- Arquivos de texto
+			- Lidos e interpretados por interprete, ex: Navegador
+			- Em tempo real
+			- JavScript
+
+			Prós:
+				- Não precisa ser compiladas
+				- Correcoes mais faceis de serem executadas
+				- Mais simples de ser distribuidas
+
+			Contras:
+				- Detecção de erros
+					- Só aparece em execução
+				- Tamanho final da aplicação maior
+				- Menor otimização da execução
+				- Multipos arquivos
+
+	Tipagem de dados
+	****************
+		Definições:
+			- 'Fortemente tipadas'
+			- Obrigam a especificar o tipo de dado da informação
+			- Menor liberadade
+			- Maior Optimização
+
+		Exemplos em C#: 
+			 int idade = 18 (OK)
+			 int idade = "Oi" (ERRO)
+
+		Exemplos em JavaScript:
+			let idade = 18 (ok)
+			let idade = '18' (ok)
+
+	C# (Sharp)
+	**********
+		- Tipada, compilada e gerenciada
+		- Creiada por Anders Hejlsberg em 2001
+		- Principal ling da Microsoft
+
+		por que aprender C#?
+		--------------------
+			- Linguagem completa (Web, games, Unit, machine Larning...)
+			- Maturidade no mercado
+			- Mercado
+			- Comunidade
+			- Aplicabilidade
+			- Microsoft por trás
+			- Orientação a objetos
+
+		C# como primeira linguagem
+		--------------------------
+			- Não é a mais fácil
+			- focada em OOP e Programação funcional
+			- Fácil no começo pode te ajudar no final
+			- OOP te dá a base aprender coisas novas
+			- A conta uma hora vem
+			- Quanto mais tempo voce perde na base, mais fácil vc aprende coisas novas
+
+		Como funciona o C#
+		------------------
+			- Tipada
+			- Compilada
+			- Codigo gerenciadao
+				- Siginifica que sua execução depente de um gerenciador
+				- Conhecido como Runtime
+				- Gerencia memoria, segurança etc...
+				- Permite que interagimos menos ou nao interagir com a máquina
+				- O Gerenciador que aloca a memoria e conversa com a máquina
+
+		Como funcioina Compilação e Gerenciamento?
+		------------------------------------------
+			- microsoft matém em manutenção as linguagens 
+			- Se cada linguagens tiver um gerenciador, isso seria complicada. Por isso há um compilador para cada uma
+			- Compiladores ficam separados, um pra cada linguagem
+			- A compilação gera um codigo intermédiario(IL - Intermediate Language), uma vez que não chega direto ao binario
+
+		IL - Intermediate Language
+		-------------------------
+		Código C#, .NET > IL > Binário
+
+		JIT - Just In Time
+		------------------
+			- O Processo de conversão do Il ao Binário e conhecido como JIT
+
+	Frameworks
+	**********
+		- Estrutura, alicence
+			- Conjunto de bibliotecas
+		- Usamos como base para construir nossas aplicações
+			- Evitando reescrever o código novamente
+				-EX: outra pessoa ja fez, voce pode usar
+		- Usaremos o .NET
+
+		Ideias do Framework
+		--------------------
+			- Trazer arquivos comuns já prontos
+				- itens do dia a dia
+			- validados e testados
+			- Nós poupam muito tempo
+			- Não vale a pena começar sem um
+
+		.NET Framework
+		--------------
+			- Primeira versão em 2001
+
+		Runtime
+		-------
+			- necessario para executar aplicacoes
+			- Dividos em 3
+				- Asp.Net web
+				- Desktop
+				- .NEt core para qualquer aplicacao
+					- sem interface
+				- Possui versões
+					- tem que ser compativel com a versão
+				- Apenas executa na aplicação
+				- Tamanho menor, otimizado para execução
+
+		SDK
+		----
+			- Sigla para Software Development Kit
+				- Kit para developer
+			- Possui tudo que precisa para criar aplicacao
+			- Ja vem com Runtime
+			- Não devemos usar em produção
+				- para executar precisamos de apenas runtime
+			- Maior que Runtime
+
+		NET
+		----
+			1 - Instalação
+			2 - CLI
+				-> Linha de comando
+					dotnet --list-sdks
+						- todas as sdks(versões) instaladas
+					dotmet --list-runtimes
+						- Lista as runtimes
+					dotnet help
+						- Ajuda com os comandos
+
+		Tipos de projetos
+		------------------
+			- Class Libary
+				- resultado final é uma DLL
+				- Sem interface
+			- Console Aplication
+				- Resultado é uma aplicação que roda no terminal
+				- Pode receber e sair dados do usario
+			- Projeto Web e Testes
+				- ASP.Net Web, MVC e WebAPI
+
+			Novo projreto em CLI
+				- dotnet new console(classlib, web, webapi, mstest) => Novo COnsole Aplication
+			
+			Criar um projeto via CLI e diretorio customizado
+				- dotnet new console -o MinhaPasta 
+
+	Linguagem de Programação C#
+	***************************
+
+		Notas inmportantes
+		------------------
+			- Evitar usar caracter especial, etc
+			- usar caminhos curtos 
+
+		Escopo de um programa
+		---------------------
+			- Importações
+			- Namespace
+			- Classe
+			- Método Principal
+
+			O programa inicia buscando:
+				1 -  O nome do arquivo
+				2 - Clase do arquivo
+				3 - Método
+
+		namespaces
+		----------
+			- Pastas no pc: Duvisao fisica
+			- Namespace: Divisão Lógica
+			- Como as pastas, namespaces nao podem ser iguais
+			- Ideal usar apenas um namespace e uma classe
+			- Podendo ter varios namespaces
+			- Sem espacos ou caracter espcial
+			- pode colocar dentro do outro usando .
+			- Normalmente usando parametros das pastas
+
+		using
+		-----
+			- Iportações, .Net trás o básico, caso queria algo mais, precisa importar
+			- Não importa o local que esteja, funciona da mesma forma
+			- Organizar o código em pastas e namespace
+
+		Variáveis
+		---------
