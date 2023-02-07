@@ -1,0 +1,33 @@
+**********************
+-- Introdução a POO --
+**********************
+Aula 01 - Paradigma OO
+ 	-> Podemos reutilizar o mesmo objeto varias vezes e até mesmo usar varias partes de uma objeto
+
+Aula 02 - Objetos
+ 	-> O que é um objeto?
+ 		- Composto por 3 itens
+ 			1- Propriedade
+ 				- Caracteristicas de um objeto
+ 			2- Métodos
+ 				- As ações que esse objeto faz, ex garrafa que abre a tampa
+ 			3- Eventos
+ 				- Acontecimentos que esse obj recebe
+
+ 	-> O que não é um objeto?
+ 		- Abstrato:
+ 			Ex: Pagamento, ideia
+
+Aula 03 - Classe e Objeto
+	
+	Objeto:
+		-> Sempre será um tipo de referencia, que só armazena o endereço dos dados, não eles em si
+		-> Recebe: Propriedade, métodos, eventos e é tipos de referencia
+		-> Sempre ferencia algo do mundo real, fisico ou abstrato
+
+	Classe:
+		-> Moldes para a criação dos objetos
+
+		structs: Armazena somente os valores 
+
+Aula 04: Encapsulamento

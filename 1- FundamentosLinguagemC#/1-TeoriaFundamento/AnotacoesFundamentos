@@ -55,7 +55,7 @@ Módulo 1 - Fundamentos
 	C# (Sharp)
 	**********
 		- Tipada, compilada e gerenciada
-		- Creiada por Anders Hejlsberg em 2001
+		- Criada por Anders Hejlsberg em 2001
 		- Principal ling da Microsoft
 
 		por que aprender C#?
@@ -66,13 +66,13 @@ Módulo 1 - Fundamentos
 			- Comunidade
 			- Aplicabilidade
 			- Microsoft por trás
-			- Orientação a objetos
+			- Orientação a Objetos
 
 		C# como primeira linguagem
 		--------------------------
 			- Não é a mais fácil
 			- focada em OOP e Programação funcional
-			- Fácil no começo pode te ajudar no final
+			- Fácil no começo pode te prejudicar no final
 			- OOP te dá a base aprender coisas novas
 			- A conta uma hora vem
 			- Quanto mais tempo voce perde na base, mais fácil vc aprende coisas novas
@@ -126,7 +126,7 @@ Módulo 1 - Fundamentos
 
 		Runtime
 		-------
-			- necessario para executar aplicacoes
+			- Necessario para executar aplicacoes
 			- Dividos em 3
 				- Asp.Net web
 				- Desktop
@@ -171,7 +171,7 @@ Módulo 1 - Fundamentos
 				- ASP.Net Web, MVC e WebAPI
 
 			Novo projreto em CLI
-				- dotnet new console(classlib, web, webapi, mstest) => Novo COnsole Aplication
+				- dotnet new console(classlib, web, webapi, mstest) => Novo Console Aplication
 			
 			Criar um projeto via CLI e diretorio customizado
 				- dotnet new console -o MinhaPasta 
@@ -192,9 +192,9 @@ Módulo 1 - Fundamentos
 			- Método Principal
 
 			O programa inicia buscando:
-				1 -  O nome do arquivo
-				2 - Clase do arquivo
-				3 - Método
+				1- O nome do arquivo
+				2- Clase do arquivo
+				3- Método
 
 		namespaces
 		----------
@@ -212,6 +212,3 @@ Módulo 1 - Fundamentos
 			- Iportações, .Net trás o básico, caso queria algo mais, precisa importar
 			- Não importa o local que esteja, funciona da mesma forma
 			- Organizar o código em pastas e namespace
-
-		Variáveis
-		---------
