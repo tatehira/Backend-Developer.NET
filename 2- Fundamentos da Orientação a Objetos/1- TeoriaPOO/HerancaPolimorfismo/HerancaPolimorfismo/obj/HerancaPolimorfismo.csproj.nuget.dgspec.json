@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wendrew.nick\\Documents\\1- Nick Arquivos\\Estudo\\ConsoleAulas\\HerancaPolimorfismo\\HerancaPolimorfismo\\HerancaPolimorfismo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wendrew.nick\\Documents\\1- Nick Arquivos\\Estudo\\ConsoleAulas\\HerancaPolimorfismo\\HerancaPolimorfismo\\HerancaPolimorfismo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wendrew.nick\\Documents\\1- Nick Arquivos\\Estudo\\ConsoleAulas\\HerancaPolimorfismo\\HerancaPolimorfismo\\HerancaPolimorfismo.csproj",
+        "projectName": "HerancaPolimorfismo",
+        "projectPath": "C:\\Users\\wendrew.nick\\Documents\\1- Nick Arquivos\\Estudo\\ConsoleAulas\\HerancaPolimorfismo\\HerancaPolimorfismo\\HerancaPolimorfismo.csproj",
+        "packagesPath": "C:\\Users\\wendrew.nick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wendrew.nick\\Documents\\1- Nick Arquivos\\Estudo\\ConsoleAulas\\HerancaPolimorfismo\\HerancaPolimorfismo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wendrew.nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\wendrew.nick\\Documents\\Projetos\\LBR.IT\\Biblioteca\\Interno-Libs-Base": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

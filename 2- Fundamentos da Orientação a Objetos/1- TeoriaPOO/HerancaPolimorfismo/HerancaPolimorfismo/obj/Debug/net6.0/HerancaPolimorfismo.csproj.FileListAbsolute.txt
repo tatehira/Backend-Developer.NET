@@ -1,0 +1,15 @@
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net6.0\HerancaPolimorfismo.exe
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net6.0\HerancaPolimorfismo.deps.json
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net6.0\HerancaPolimorfismo.runtimeconfig.json
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net6.0\HerancaPolimorfismo.dll
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net6.0\HerancaPolimorfismo.pdb
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\HerancaPolimorfismo.csproj.AssemblyReference.cache
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\HerancaPolimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\HerancaPolimorfismo.AssemblyInfoInputs.cache
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\HerancaPolimorfismo.AssemblyInfo.cs
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\HerancaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\HerancaPolimorfismo.dll
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\refint\HerancaPolimorfismo.dll
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\HerancaPolimorfismo.pdb
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\HerancaPolimorfismo.genruntimeconfig.cache
+C:\Users\wendrew.nick\Documents\1- Nick Arquivos\Estudo\ConsoleAulas\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net6.0\ref\HerancaPolimorfismo.dll

@@ -11,6 +11,8 @@ Aula 02 - Objetos
  				- Caracteristicas de um objeto
  			2- Métodos
  				- As ações que esse objeto faz, ex garrafa que abre a tampa
+				- Geralmente recebe uma função com as acoes para o objeto
+
  			3- Eventos
  				- Acontecimentos que esse obj recebe
 
@@ -21,13 +23,62 @@ Aula 02 - Objetos
 Aula 03 - Classe e Objeto
 	
 	Objeto:
-		-> Sempre será um tipo de referencia, que só armazena o endereço dos dados, não eles em si
+		-> Sempre será um tipo de referencia, que só armazena o ENDEREÇO dos dados, não eles em si
+
 		-> Recebe: Propriedade, métodos, eventos e é tipos de referencia
-		-> Sempre ferencia algo do mundo real, fisico ou abstrato
+
+		-> Sempre referencia algo do mundo real, fisico ou abstrato
 
 	Classe:
 		-> Moldes para a criação dos objetos
+		-> Sempre que criamos uma classe, estamos criando um tipo
 
 		structs: Armazena somente os valores 
 
 Aula 04: Encapsulamento
+	-> Agrupar as informaçoes se fazer sentido estar juntas
+
+Aula 05: Abstração
+	-> Esconder o que não precisa
+	-> Expor somente o necessário do objeto
+
+Aula 06: Herança
+	-> Capacidade do objeto herdar as propriedade, metodos e eventos de outro objeto
+
+	class PagBoleto : Pagamento //herança = ':'
+	{	//propriedade
+		public DateTime Vencimento;
+
+		//metodos
+		void pagar()
+		{}
+	}
+
+Aula 07: Polimorfismo
+	-> Objeto, método ou classe pode ter N formas
+
+	-> Polimorfismo significa "muitas formas", é o termo definido em linguagens orientadas a objeto, como por exemplo Java, C# e C++, que permite ao desenvolvedor usar o mesmo elemento de formas diferentes. Polimorfismo denota uma situação na qual um objeto pode se comportar de maneiras diferentes ao receber uma mensagem.
+
+Aula 08: Modificadores de acesso
+	-> Existe Modificadores de acesso em: Propriedade, métodos e classes
+
+	private, protected, internal e public
+
+	-> Privado: Só será visivel dentro da classes
+		- Uma classe será automaticamente privada quando não é colocado Mod de acesso.
+
+	-> protected: Só é visivel para os filhos da classe. Não é possível visualizar de fora da classe
+
+	-> Internal: Ele só fica disponivel dentro do mesmo namespace
+
+	-> public: Visivel em toda estrutura
+
+Aula 09: TiposComplexos
+	-> São tipos que possuem dentro do .Net que tem sua estrutura, como: DateTime ou classes
+
+	Dicas:
+		-> Evitar criar uma classe com varias propriedades
+
+		-> Recomendado usar subClasses com grupos iguais
+
+		-> Sempre usar classes
