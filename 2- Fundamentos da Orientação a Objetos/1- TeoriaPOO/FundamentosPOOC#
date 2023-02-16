@@ -4,6 +4,7 @@
 Aula 01 - Paradigma OO
  	-> Podemos reutilizar o mesmo objeto varias vezes e até mesmo usar varias partes de uma objeto
 
+
 Aula 02 - Objetos
  	-> O que é um objeto?
  		- Composto por 3 itens
@@ -20,6 +21,7 @@ Aula 02 - Objetos
  		- Abstrato:
  			Ex: Pagamento, ideia
 
+
 Aula 03 - Classe e Objeto
 	
 	Objeto:
@@ -35,12 +37,15 @@ Aula 03 - Classe e Objeto
 
 		structs: Armazena somente os valores 
 
+
 Aula 04: Encapsulamento
 	-> Agrupar as informaçoes se fazer sentido estar juntas
+
 
 Aula 05: Abstração
 	-> Esconder o que não precisa
 	-> Expor somente o necessário do objeto
+
 
 Aula 06: Herança
 	-> Capacidade do objeto herdar as propriedade, metodos e eventos de outro objeto
@@ -54,10 +59,12 @@ Aula 06: Herança
 		{}
 	}
 
+
 Aula 07: Polimorfismo
 	-> Objeto, método ou classe pode ter N formas
 
 	-> Polimorfismo significa "muitas formas", é o termo definido em linguagens orientadas a objeto, como por exemplo Java, C# e C++, que permite ao desenvolvedor usar o mesmo elemento de formas diferentes. Polimorfismo denota uma situação na qual um objeto pode se comportar de maneiras diferentes ao receber uma mensagem.
+
 
 Aula 08: Modificadores de acesso
 	-> Existe Modificadores de acesso em: Propriedade, métodos e classes
@@ -73,6 +80,7 @@ Aula 08: Modificadores de acesso
 
 	-> public: Visivel em toda estrutura
 
+
 Aula 09: TiposComplexos
 	-> São tipos que possuem dentro do .Net que tem sua estrutura, como: DateTime ou classes
 
@@ -82,3 +90,149 @@ Aula 09: TiposComplexos
 		-> Recomendado usar subClasses com grupos iguais
 
 		-> Sempre usar classes
+
+
+Aula 10: Propriedades
+	-> Propriedade 
+
+		- public tipo NomeProp {get; set;}
+
+		{get; set;}-> Acessores, atribuir ou recebe valor atraves da variavel
+			- Sempre que for ler o valor da variavel, passa pelo GET
+			- Sempre que for atribuir um valor na variavel, ele passa pelo SET
+
+
+Aula 11: Métodos 
+	Sobrecarga de método
+		-> Quando existe mais de um método igual porém possui diferentes versões, ex:
+
+		- public void Pagar (string numero) {}
+
+		- public void Pagar (string numero, DateTime Vencimento) {}
+
+	- Sobrescrita de método
+		-> Siginifica que o método pode ser sobrescrito
+
+		ex: public override void pagar () 
+		{
+			base.Pagar(numero);
+			Console.WriteLine("Pagar cartão");
+		}
+
+
+Aula 12: Using e Dispose
+
+	Garbage Collect 
+		-> Coletor de lixos. Ele detrói estruturas que não está sendo usadas e solta na memoria para economizar processamento.
+			ex: Quando há uma requisição no BD, no lugar de correr o risco de a conexão naão seja finalizada após a coleta, ele destroi após coletada.
+
+	using(){} 
+		-> Faz com que o obj seja automaticamente destuido apos o encerramento do bloco. Logo em seguida, deixa o obj solto na memoria, executando o metodo dispose do mesmo.
+
+	Dispose 
+		-> é uma convenção do .NET Framework para que as classes disponibilizem ao programador um meio de liberar a memória usada sem ter que esperar o Garbage Collector fazer isso.
+
+		Para que isso ocorra, passamos a herança : IDisposable
+			- Ele gerará um método Disposable
+
+		por isso é importante usar o: 
+			using (var pagemento = new Pagamento())
+			{
+			}
+
+
+Aula 13: Classes Estaticas
+
+	-> public static class Nome
+		- Classe estatica NÃO PODE SER INSTANCIADA!
+		- Dentro de uma classe estatica, só é possível colocar os metodos estaticos
+
+		- Por que usar?
+			-> Quando voce cria uma classe que não terá multiplas formas ou instancias dela
+			EX: exemplo: 
+				1- Conigurações do sistemas, como: URL etc
+
+				Exemplo de não usar: Pagamento e Criação de usuarios
+
+
+Aula 14: Classes Seladas
+	
+	public sealed class Nome{}
+
+	-> Proibe que a classe seja estendida, instanciada, heranca ou alterada
+
+	Por que? 
+		- em cenarios que a classe só terá uma forma
+
+
+Aula 15: Partial classes
+	-> Ele une os arquivos atraves da organização lógica, os namespaces
+	-> Pode criar duas classes com mesmo nome usando o 
+
+		Public partial class Nome{}
+
+		assim, organizando as propriedades ou métodos de uma mesma classe em arquivos diferentes
+
+
+Aula 16: Interfaces
+	 
+	Sempre que definimos uma interface na POO, estamos definindo um contrato. Não fala como vai ser feito, só como deve ser feito
+
+		contrato: Como uma classe deve ser ou agir, ou seja, uma regra ele tem que seguir sempre
+			- contrato tem como nome inicial 'i' exemplo: IPagamento
+
+			interface x classes
+				- Interface não tem implementação
+
+
+Aula 17: Classes Abstratas
+	-> não pode ser instanciada, só herdada
+
+		public abstract class Nome
+
+
+Aula 18: Upcast e Downcast
+	-> Upcast	
+		Possiblidade de tornar uma classe filha do tipo pai
+
+		Ex: tem um tipo de pagamento e uma determinada hora ele pode ser pagamento de boleto, pix ou credito. 
+
+
+Aula 19: Comparação de Objeto
+	-> ao fazer uma comparação normal:
+		 var pessoa1 = new Pessoa(1, "Nick Tatehira")
+		 var pessoa2 = new Pessoa(2, "Nick Tatehira")
+
+		 Console.WriteLine(pessoa1 == pessoa2)
+		 	- será false, porque está sendo comparado o valor de referencia, que no caso estão em diferentes espaços de memória.
+
+		 	O == compara endereço de memoria
+
+		Por isso devemos fazer da seguinte forama:
+
+			public class Pessoa : IEquatable<Pessoa>
+
+				public Pessoa (int id, string nome)
+				{
+					Id = id;
+					Nome = nome;
+				}
+
+				public bool Equals(Pessoa pessoa)
+				{
+					return Id == pessoa.Id;
+				}
+
+				 Console.WriteLine(pessoa1.Equals(Pessoa2))
+
+
+Aula 20: Delegates
+	// Delegates => Anonymous metodos
+
+	Voce delega uma função para fzer algo. Exemplo:
+		criar uma funcao pagar e chama uma função Pagamento para fazer o pagamento
+
+
+Aula 21: Eventos
+	-> O que é eventos em C#?
+		Eventos permitem que uma classe ou objeto notifique outras classes ou objetos quando algo interessante ocorre. A classe que envia (ou aciona) o evento é chamada de editor e as classes que recebem (ou manipulam) os eventos são chamadas assinantes.
